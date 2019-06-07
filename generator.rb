@@ -8,11 +8,14 @@ class Generator
 
   def call
     @feed_content ||= open(feed_url).read
-    doc = Nokogiri::XML(feed_content)
+    doc = Nokogiri::XML(feed_content) { |conf| conf.noblanks }
 
     items =
       doc.css('feed entry').map do |entry|
-        url = entry.css('link[rel="alternate"][type="text/html"]').first[:href]
+        url =
+          entry
+            .children
+            .find { |n| n.name == 'link' && n[:rel] == 'alternate' && n[:type] == 'text/html' }[:href]
 
         published = entry.css('published').first.text
         modified = entry.css('updated').first.text
@@ -33,6 +36,12 @@ class Generator
           json_entry[:content_html] += %Q(<p><img src="#{image[:href]}"></p>)
         end
 
+        summary = entry.xpath('summary').first
+
+        if summary && summary.text
+          json_entry[:title] = summary.text
+        end
+
         if entry.xpath('activity:verb').text == 'http://activitystrea.ms/schema/1.0/share'
           shared_object = entry.xpath('activity:object')
           shared_url = shared_object.css('link[rel="alternate"][type="text/html"]').first[:href]
@@ -41,12 +50,14 @@ class Generator
             <p><a href="#{shared_url}">#{shared_author}</a>:</p>
             <blockquote>#{json_entry[:content_html]}</blockquote>
           SHARE
-        end
 
-        summary = entry.xpath('summary').to_s.strip
+          unless json_entry[:title]
+            shared_summary = shared_object.children.find { |n| n.name == 'summary' }
 
-        unless summary.size.zero?
-          json_entry[:title] = summary
+            if shared_summary && shared_summary.text
+              json_entry[:title] = shared_summary.text
+            end
+          end
         end
 
         json_entry
