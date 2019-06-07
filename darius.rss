@@ -1,0 +1,527 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:poco="http://portablecontacts.net/spec/1.0" xmlns:media="http://purl.org/syndication/atommedia" xmlns:ostatus="http://ostatus.org/schema/1.0" xmlns:mastodon="http://mastodon.social/schema/1.0">
+  <id>https://friend.camp/users/darius.atom</id>
+  <title>Darius Kazemi</title>
+  <subtitle>I'm the administrator of this server. https://tinysubversions.com is where most of my stuff lives. Mozilla Fellow. Based in Portland, Oregon, USA. he/him</subtitle>
+  <updated>2019-03-12T23:53:41Z</updated>
+  <logo>https://friend.camp/system/accounts/avatars/000/000/001/original/76b2d9f1ed3cd816.jpg?1539712542</logo>
+  <author>
+    <id>https://friend.camp/users/darius</id>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    <uri>https://friend.camp/users/darius</uri>
+    <name>darius</name>
+    <email>darius@friend.camp</email>
+    <summary type="html">&lt;p&gt;I&amp;apos;m the administrator of this server. &lt;a href="https://tinysubversions.com" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;tinysubversions.com&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; is where most of my stuff lives. Mozilla Fellow. Based in Portland, Oregon, USA. he/him&lt;/p&gt;</summary>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius"/>
+    <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://friend.camp/system/accounts/avatars/000/000/001/original/76b2d9f1ed3cd816.jpg?1539712542"/>
+    <poco:preferredUsername>darius</poco:preferredUsername>
+    <poco:displayName>Darius Kazemi</poco:displayName>
+    <poco:note>I'm the administrator of this server. https://tinysubversions.com is where most of my stuff lives. Mozilla Fellow. Based in Portland, Oregon, USA. he/him</poco:note>
+    <mastodon:scope>public</mastodon:scope>
+  </author>
+  <link rel="alternate" type="text/html" href="https://friend.camp/@darius"/>
+  <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius.atom"/>
+  <link rel="next" type="application/atom+xml" href="https://friend.camp/users/darius.atom?max_id=111145"/>
+  <link rel="hub" href="https://friend.camp/api/push"/>
+  <link rel="salmon" href="https://friend.camp/api/salmon/1"/>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102230551022760859/activity</id>
+    <published>2019-06-07T13:33:33Z</published>
+    <updated>2019-06-07T13:33:33Z</updated>
+    <title>darius shared a status by sifr@anticapitalist.party</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
+    <activity:object>
+      <id>https://anticapitalist.party/users/sifr/statuses/102230437771588750</id>
+      <published>2019-06-07T13:04:45Z</published>
+      <updated>2019-06-07T13:04:53Z</updated>
+      <title>New status by sifr@anticapitalist.party</title>
+      <author>
+        <id>https://anticapitalist.party/users/sifr</id>
+        <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        <uri>https://anticapitalist.party/users/sifr</uri>
+        <name>sifr</name>
+        <email>sifr@anticapitalist.party</email>
+        <summary type="html">&lt;p&gt;ex-physicist, fake data-scientist&lt;br&gt;they/them&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://anticapitalist.party/@sifr"/>
+        <link rel="avatar" type="image/png" media:width="120" media:height="120" href="https://friend.camp/system/accounts/avatars/000/016/906/original/b2d460f2dcd161ad.png?1536456885"/>
+        <link rel="header" type="image/png" media:width="700" media:height="335" href="https://friend.camp/system/accounts/headers/000/016/906/original/69e9a6d04aa36be6.png?1536456886"/>
+        <poco:preferredUsername>sifr</poco:preferredUsername>
+        <poco:displayName>dust</poco:displayName>
+        <poco:note>ex-physicist, fake data-scientistthey/them</poco:note>
+        <mastodon:scope>public</mastodon:scope>
+      </author>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+      <content type="html" xml:lang="en">&lt;p&gt;call me by your gnome&lt;/p&gt;</content>
+      <mastodon:scope>unlisted</mastodon:scope>
+      <link rel="alternate" type="text/html" href="https://anticapitalist.party/@sifr/102230437771588750"/>
+      <ostatus:conversation ref="tag:anticapitalist.party,2019-06-07:objectId=18002591:objectType=Conversation"/>
+    </activity:object>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102230551022760859/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;call me by your gnome&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102230551022760859"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111686.atom"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-07:objectId=2134174:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102230548461340455</id>
+    <published>2019-06-07T13:32:54Z</published>
+    <updated>2019-06-07T13:32:54Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102230548461340455"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://scholar.social/@rusty" class="u-url mention"&gt;@&lt;span&gt;rusty&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; next they should do it as a digestive tract[atus]&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://scholar.social/users/rusty"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102230548461340455"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111685.atom"/>
+    <thr:in-reply-to ref="https://friend.camp/users/darius/statuses/102230536862551755" href="https://friend.camp/@darius/102230536862551755"/>
+    <ostatus:conversation ref="tag:scholar.social,2019-06-07:objectId=8448243:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102230536862551755</id>
+    <published>2019-06-07T13:29:57Z</published>
+    <updated>2019-06-07T13:29:57Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102230536862551755"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://scholar.social/@rusty" class="u-url mention"&gt;@&lt;span&gt;rusty&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; this subway ist alles, was der fall ist&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://scholar.social/users/rusty"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102230536862551755"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111684.atom"/>
+    <thr:in-reply-to ref="https://scholar.social/users/rusty/statuses/102230462208714634" href="https://scholar.social/@rusty/102230462208714634"/>
+    <ostatus:conversation ref="tag:scholar.social,2019-06-07:objectId=8448243:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102230532732854179/activity</id>
+    <published>2019-06-07T13:28:54Z</published>
+    <updated>2019-06-07T13:28:54Z</updated>
+    <title>darius shared a status by rusty@scholar.social</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
+    <activity:object>
+      <id>https://scholar.social/users/rusty/statuses/102230462208714634</id>
+      <published>2019-06-07T13:10:58Z</published>
+      <updated>2019-06-07T13:10:59Z</updated>
+      <title>New status by rusty@scholar.social</title>
+      <author>
+        <id>https://scholar.social/users/rusty</id>
+        <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        <uri>https://scholar.social/users/rusty</uri>
+        <name>rusty</name>
+        <email>rusty@scholar.social</email>
+        <summary type="html">&lt;p&gt;Poet. Composition instructor. BBQ enthusiast. Researching the dreams &amp;amp; nightmares birthed by tech.&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://scholar.social/@rusty"/>
+        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://friend.camp/system/accounts/avatars/000/045/746/original/0a4d3073ddb1e70d.jpeg?1551786913"/>
+        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://friend.camp/system/accounts/headers/000/045/746/original/6b2a9a825310bb8d.jpeg?1552829086"/>
+        <poco:preferredUsername>rusty</poco:preferredUsername>
+        <poco:displayName>Rusty</poco:displayName>
+        <poco:note>Poet. Composition instructor. BBQ enthusiast. Researching the dreams &amp;amp; nightmares birthed by tech.</poco:note>
+        <mastodon:scope>public</mastodon:scope>
+      </author>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+      <content type="html" xml:lang="en">&lt;p&gt;Wittgenstein's Tractatus visualized as a subway map?! YES!: &lt;a href="http://tractatus.lib.uiowa.edu" rel="nofollow noopener" target="_blank"&gt;&lt;span class="article-type"&gt;http://&lt;/span&gt;&lt;span class="article-type"&gt;tractatus.lib.uiowa.edu&lt;/span&gt;&lt;span class="article-type"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+      <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+      <mastodon:scope>public</mastodon:scope>
+      <link rel="alternate" type="text/html" href="https://scholar.social/@rusty/102230462208714634"/>
+      <ostatus:conversation ref="tag:scholar.social,2019-06-07:objectId=8448243:objectType=Conversation"/>
+    </activity:object>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102230532732854179/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;Wittgenstein's Tractatus visualized as a subway map?! YES!: &lt;a href="http://tractatus.lib.uiowa.edu" rel="nofollow noopener" target="_blank"&gt;&lt;span class="article-type"&gt;http://&lt;/span&gt;&lt;span class="article-type"&gt;tractatus.lib.uiowa.edu&lt;/span&gt;&lt;span class="article-type"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102230532732854179"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111683.atom"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-07:objectId=2134140:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102227676676257775</id>
+    <published>2019-06-07T01:22:34Z</published>
+    <updated>2019-06-07T01:22:34Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102227676676257775"/>
+    <content type="html" xml:lang="en">&lt;p&gt;And a Memo Akten shout-out!&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102227676676257775"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111621.atom"/>
+    <thr:in-reply-to ref="https://friend.camp/users/darius/statuses/102227650293395551" href="https://friend.camp/@darius/102227650293395551"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-07:objectId=2130287:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102227650293395551</id>
+    <published>2019-06-07T01:15:52Z</published>
+    <updated>2019-06-07T01:15:52Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102227650293395551"/>
+    <content type="html" xml:lang="es">&lt;p&gt;Ahhh Refik Anadol is referencing Lev Manovich in his closing talk &lt;a href="https://friend.camp/tags/eyeo2019" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Eyeo2019&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <category term="eyeo2019"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102227650293395551"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111620.atom"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-07:objectId=2130287:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102227121272518871</id>
+    <published>2019-06-06T23:01:19Z</published>
+    <updated>2019-06-06T23:01:19Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102227121272518871"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://botsin.space/@Fellas" class="u-url mention"&gt;@&lt;span&gt;Fellas&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; yes&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://botsin.space/users/Fellas"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102227121272518871"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111570.atom"/>
+    <thr:in-reply-to ref="https://botsin.space/users/Fellas/statuses/102227080798919287" href="https://botsin.space/@Fellas/102227080798919287"/>
+    <ostatus:conversation ref="tag:botsin.space,2019-06-06:objectId=16273563:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102227121083913273/activity</id>
+    <published>2019-06-06T23:01:17Z</published>
+    <updated>2019-06-06T23:01:17Z</updated>
+    <title>darius shared a status by Fellas@botsin.space</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
+    <activity:object>
+      <id>https://botsin.space/users/Fellas/statuses/102227080798919287</id>
+      <published>2019-06-06T22:51:02Z</published>
+      <updated>2019-06-06T22:51:04Z</updated>
+      <title>New status by Fellas@botsin.space</title>
+      <author>
+        <id>https://botsin.space/users/Fellas</id>
+        <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        <uri>https://botsin.space/users/Fellas</uri>
+        <name>Fellas</name>
+        <email>Fellas@botsin.space</email>
+        <summary type="html">&lt;p&gt;Asking whether things are gay. A bot by &lt;span class="article-type"&gt;&lt;a href="https://social.tinysubversions.com/@darius" class="u-url mention" rel="nofollow noopener" target="_blank"&gt;@&lt;span class="article-type"&gt;darius&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://botsin.space/@Fellas"/>
+        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://friend.camp/system/accounts/avatars/000/000/165/original/85096a45ae94f435.jpeg?1534607077"/>
+        <poco:preferredUsername>Fellas</poco:preferredUsername>
+        <poco:displayName>Fellas Bot</poco:displayName>
+        <poco:note>Asking whether things are gay. A bot by @darius</poco:note>
+        <mastodon:scope>public</mastodon:scope>
+      </author>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+      <content type="html" xml:lang="en">&lt;p&gt;GUYS... is it gay to prance? You literally bounding spring forward ☕️☕️&lt;/p&gt;</content>
+      <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+      <mastodon:scope>public</mastodon:scope>
+      <link rel="alternate" type="text/html" href="https://botsin.space/@Fellas/102227080798919287"/>
+      <ostatus:conversation ref="tag:botsin.space,2019-06-06:objectId=16273563:objectType=Conversation"/>
+    </activity:object>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102227121083913273/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;GUYS... is it gay to prance? You literally bounding spring forward ☕️☕️&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102227121083913273"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111569.atom"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-06:objectId=2129202:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102227105225939092</id>
+    <published>2019-06-06T22:57:15Z</published>
+    <updated>2019-06-06T22:57:15Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102227105225939092"/>
+    <content type="html" xml:lang="">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://oulipo.social/@kit" class="u-url mention"&gt;@&lt;span&gt;kit&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;a href="https://drive.google.com/file/d/1-krczhOsGasZT-4lKf6nIskJ-bF6NA87/view?usp=drivesdk" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;drive.google.com/file/d/1-krcz&lt;/span&gt;&lt;span class="invisible"&gt;hOsGasZT-4lKf6nIskJ-bF6NA87/view?usp=drivesdk&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://oulipo.social/users/kit"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102227105225939092"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111566.atom"/>
+    <thr:in-reply-to ref="https://oulipo.social/users/kit/statuses/102226872151814280" href="https://oulipo.social/@kit/102226872151814280"/>
+    <ostatus:conversation ref="tag:oulipo.social,2019-06-06:objectId=1212118:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102226708217155651</id>
+    <published>2019-06-06T21:16:17Z</published>
+    <updated>2019-06-06T21:16:17Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102226708217155651"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://friend.camp/@everest" class="u-url mention"&gt;@&lt;span&gt;everest&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; I&amp;apos;ve taken the bus twice every day and seen zero attendees so, good to know that there are others!&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://friend.camp/users/everest"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102226708217155651"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111548.atom"/>
+    <thr:in-reply-to ref="https://friend.camp/users/everest/statuses/102226672486896664" href="https://friend.camp/@everest/102226672486896664"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-06:objectId=2128234:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102226460443520544/activity</id>
+    <published>2019-06-06T20:13:16Z</published>
+    <updated>2019-06-06T20:13:16Z</updated>
+    <title>darius shared a status by aparrish</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
+    <activity:object>
+      <id>https://friend.camp/users/aparrish/statuses/102226447669514189</id>
+      <published>2019-06-06T20:10:01Z</published>
+      <updated>2019-06-06T20:10:01Z</updated>
+      <title>New status by aparrish</title>
+      <author>
+        <id>https://friend.camp/users/aparrish</id>
+        <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        <uri>https://friend.camp/users/aparrish</uri>
+        <name>aparrish</name>
+        <email>aparrish@friend.camp</email>
+        <summary type="html">&lt;p&gt;Poet, programmer, game designer, computational creativity researcher. Assistant Arts Professor at NYU ITP. she/her&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://friend.camp/@aparrish"/>
+        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://friend.camp/system/accounts/avatars/000/047/757/original/28091f0ad3a8d55b.jpg?1553532937"/>
+        <link rel="header" type="image/png" media:width="700" media:height="335" href="https://friend.camp/system/accounts/headers/000/047/757/original/0f4bfe7d80e12b62.png?1553532937"/>
+        <poco:preferredUsername>aparrish</poco:preferredUsername>
+        <poco:displayName>Allison Parrish</poco:displayName>
+        <poco:note>Poet, programmer, game designer, computational creativity researcher. Assistant Arts Professor at NYU ITP. she/her</poco:note>
+        <mastodon:scope>public</mastodon:scope>
+      </author>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+      <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/aparrish/statuses/102226447669514189"/>
+      <summary xml:lang="en">fediverse meta +, not intended as a humble brag honest</summary>
+      <content type="html" xml:lang="en">&lt;p&gt;it&amp;apos;s been said before, but: getting a bunch of boosts/favorites on a mastodon post is so much more satisfying (and feels so much nicer) than getting even an order of magnitude more likes/retweets/shares/whatever on an attention-manipulation social network post. mastodon favs/boosts feel more like individual commitments and not, like, purely performative acts  coerced by advertisement algorithms&lt;/p&gt;</content>
+      <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+      <mastodon:scope>public</mastodon:scope>
+      <link rel="alternate" type="text/html" href="https://friend.camp/@aparrish/102226447669514189"/>
+      <ostatus:conversation ref="tag:friend.camp,2019-06-06:objectId=2127586:objectType=Conversation"/>
+    </activity:object>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102226460443520544/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;RT &lt;span class="h-card"&gt;&lt;a href="https://friend.camp/@aparrish" class="u-url mention"&gt;@&lt;span&gt;aparrish&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; it&amp;apos;s been said before, but: getting a bunch of boosts/favorites on a mastodon post is so much more satisfying (and feels so much nicer) than getting even an order of magnitude more likes/retweets/shares/whatever on an attention-manipulation social network post. mastodon favs/boosts feel more like individual commitments and not, like, purely performative acts  coerced by advertisement algorithms&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102226460443520544"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111517.atom"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-06:objectId=2127627:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102225495864828421</id>
+    <published>2019-06-06T16:07:58Z</published>
+    <updated>2019-06-06T16:07:58Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102225495864828421"/>
+    <content type="html" xml:lang="en">&lt;p&gt;Paul Soulellis on Urgentcraft:&lt;/p&gt;&lt;p&gt;Doing what you can&lt;br /&gt;Modest tools and materials&lt;br /&gt;The slow gesture of maintenance&lt;br /&gt;Interference / good trouble&lt;br /&gt;Illegibility / refusal&lt;br /&gt;Collective care&lt;br /&gt;Resist design perfection&lt;/p&gt;&lt;p&gt;&lt;a href="https://friend.camp/tags/eyeo2019" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Eyeo2019&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <category term="eyeo2019"/>
+    <link rel="enclosure" type="image/jpeg" length="279727" href="https://friend.camp/system/media_attachments/files/000/463/629/original/3ef30ab8a5e95898.jpeg"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102225495864828421"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111351.atom"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-06:objectId=2125363:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102224991776598137</id>
+    <published>2019-06-06T13:59:46Z</published>
+    <updated>2019-06-06T13:59:46Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102224991776598137"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://penguicon.social/@matt" class="u-url mention"&gt;@&lt;span&gt;matt&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;span class="h-card"&gt;&lt;a href="https://friend.camp/@jer" class="u-url mention"&gt;@&lt;span&gt;jer&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; there will be video! at some point&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://penguicon.social/users/matt"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://friend.camp/users/jer"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102224991776598137"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111301.atom"/>
+    <thr:in-reply-to ref="https://penguicon.social/users/matt/statuses/102224990285388866" href="https://penguicon.social/@matt/102224990285388866"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-05:objectId=2118491:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102222689746941225</id>
+    <published>2019-06-06T04:14:20Z</published>
+    <updated>2019-06-06T04:14:20Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102222689746941225"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://oulipo.social/@kit" class="u-url mention"&gt;@&lt;span&gt;kit&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; we should probably like. meet up&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://oulipo.social/users/kit"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102222689746941225"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111245.atom"/>
+    <thr:in-reply-to ref="https://oulipo.social/users/kit/statuses/102222684051733178" href="https://oulipo.social/@kit/102222684051733178"/>
+    <ostatus:conversation ref="tag:oulipo.social,2019-06-06:objectId=1210433:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102222618290854316</id>
+    <published>2019-06-06T03:56:09Z</published>
+    <updated>2019-06-06T03:56:09Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102222618290854316"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://moonbeam.dance/@canary" class="u-url mention"&gt;@&lt;span&gt;canary&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; 600 gay points for you&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://moonbeam.dance/users/canary"/>
+    <mastodon:scope>unlisted</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102222618290854316"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111239.atom"/>
+    <thr:in-reply-to ref="https://moonbeam.dance/users/canary/statuses/102222614541732967" href="https://moonbeam.dance/@canary/102222614541732967"/>
+    <ostatus:conversation ref="tag:moonbeam.dance,2019-06-06:objectId=89925:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102222370730125357/activity</id>
+    <published>2019-06-06T02:53:12Z</published>
+    <updated>2019-06-06T02:53:12Z</updated>
+    <title>darius shared a status by Fellas@botsin.space</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
+    <activity:object>
+      <id>https://botsin.space/users/Fellas/statuses/102222362272058810</id>
+      <published>2019-06-06T02:51:03Z</published>
+      <updated>2019-06-06T02:51:07Z</updated>
+      <title>New status by Fellas@botsin.space</title>
+      <author>
+        <id>https://botsin.space/users/Fellas</id>
+        <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        <uri>https://botsin.space/users/Fellas</uri>
+        <name>Fellas</name>
+        <email>Fellas@botsin.space</email>
+        <summary type="html">&lt;p&gt;Asking whether things are gay. A bot by &lt;span class="article-type"&gt;&lt;a href="https://social.tinysubversions.com/@darius" class="u-url mention" rel="nofollow noopener" target="_blank"&gt;@&lt;span class="article-type"&gt;darius&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://botsin.space/@Fellas"/>
+        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://friend.camp/system/accounts/avatars/000/000/165/original/85096a45ae94f435.jpeg?1534607077"/>
+        <poco:preferredUsername>Fellas</poco:preferredUsername>
+        <poco:displayName>Fellas Bot</poco:displayName>
+        <poco:note>Asking whether things are gay. A bot by @darius</poco:note>
+        <mastodon:scope>public</mastodon:scope>
+      </author>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+      <content type="html" xml:lang="en">&lt;p&gt;Fellas is it gay to explore? You're making a careful examination or search. 🤔&lt;/p&gt;</content>
+      <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+      <mastodon:scope>public</mastodon:scope>
+      <link rel="alternate" type="text/html" href="https://botsin.space/@Fellas/102222362272058810"/>
+      <ostatus:conversation ref="tag:botsin.space,2019-06-06:objectId=16238321:objectType=Conversation"/>
+    </activity:object>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102222370730125357/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;Fellas is it gay to explore? You're making a careful examination or search. 🤔&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102222370730125357"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111227.atom"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-06:objectId=2121534:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102222152328611483</id>
+    <published>2019-06-06T01:57:39Z</published>
+    <updated>2019-06-06T01:57:39Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102222152328611483"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://bob.mikorizal.org/users/bhaugen" class="u-url mention"&gt;@&lt;span&gt;bhaugen&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;span class="h-card"&gt;&lt;a href="https://banana.dog/@yaaps" class="u-url mention"&gt;@&lt;span&gt;yaaps&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; I believe the beast being referenced is using dat instead of s3, so users don&amp;apos;t need to set up s3&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://bob.mikorizal.org/users/bhaugen"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://banana.dog/users/yaaps"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102222152328611483"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111216.atom"/>
+    <thr:in-reply-to ref="https://bob.mikorizal.org/objects/b827889f-f619-47e7-8038-5abbe5e709c7" href="https://bob.mikorizal.org/objects/b827889f-f619-47e7-8038-5abbe5e709c7"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-05:objectId=2115894:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102221389440672978</id>
+    <published>2019-06-05T22:43:39Z</published>
+    <updated>2019-06-05T22:43:39Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102221389440672978"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://banana.dog/@yaaps" class="u-url mention"&gt;@&lt;span&gt;yaaps&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; yes! exactly. would love to talk dat as s3 replacement&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://banana.dog/users/yaaps"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102221389440672978"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111148.atom"/>
+    <thr:in-reply-to ref="https://banana.dog/users/yaaps/statuses/102220772742705584" href="https://banana.dog/@yaaps/102220772742705584"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-05:objectId=2115894:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102221385217273713/activity</id>
+    <published>2019-06-05T22:42:34Z</published>
+    <updated>2019-06-05T22:42:34Z</updated>
+    <title>darius shared a status by jer</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
+    <activity:object>
+      <id>https://friend.camp/users/jer/statuses/102220950039456586</id>
+      <published>2019-06-05T20:51:54Z</published>
+      <updated>2019-06-05T20:51:54Z</updated>
+      <title>New status by jer</title>
+      <author>
+        <id>https://friend.camp/users/jer</id>
+        <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        <uri>https://friend.camp/users/jer</uri>
+        <name>jer</name>
+        <email>jer@friend.camp</email>
+        <summary type="html">&lt;p&gt;Doer of things, lover of nudibranchs. Artist/Writer/Teacher&lt;/p&gt;&lt;p&gt;he/him/his&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://friend.camp/@jer"/>
+        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://friend.camp/system/accounts/avatars/000/041/542/original/01d7785e3c9962e1.jpg?1548450397"/>
+        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://friend.camp/system/accounts/headers/000/041/542/original/e2fc1e1eabbded5c.jpeg?1548450397"/>
+        <poco:preferredUsername>jer</poco:preferredUsername>
+        <poco:displayName>Jer Thorp</poco:displayName>
+        <poco:note>Doer of things, lover of nudibranchs. Artist/Writer/Teacher
+
+he/him/his</poco:note>
+        <mastodon:scope>public</mastodon:scope>
+      </author>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+      <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/jer/statuses/102220950039456586"/>
+      <content type="html" xml:lang="en">&lt;p&gt;Hey look! It&amp;apos;s &lt;span class="h-card"&gt;&lt;a href="https://friend.camp/@darius" class="u-url mention"&gt;@&lt;span&gt;darius&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; talking about friend camp at Eyeo!&lt;/p&gt;</content>
+      <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://friend.camp/users/darius"/>
+      <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+      <link rel="enclosure" type="image/jpeg" length="94059" href="https://friend.camp/system/media_attachments/files/000/462/197/original/9508df5b48a173a0.jpg"/>
+      <link rel="enclosure" type="image/jpeg" length="247933" href="https://friend.camp/system/media_attachments/files/000/462/191/original/1d764a6182a67b29.jpeg"/>
+      <mastodon:scope>public</mastodon:scope>
+      <link rel="alternate" type="text/html" href="https://friend.camp/@jer/102220950039456586"/>
+      <ostatus:conversation ref="tag:friend.camp,2019-06-05:objectId=2118491:objectType=Conversation"/>
+    </activity:object>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102221385217273713/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;RT &lt;span class="h-card"&gt;&lt;a href="https://friend.camp/@jer" class="u-url mention"&gt;@&lt;span&gt;jer&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; Hey look! It&amp;apos;s &lt;span class="h-card"&gt;&lt;a href="https://friend.camp/@darius" class="u-url mention"&gt;@&lt;span&gt;darius&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; talking about friend camp at Eyeo!&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102221385217273713"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111146.atom"/>
+    <ostatus:conversation ref="tag:friend.camp,2019-06-05:objectId=2119415:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://friend.camp/users/darius/statuses/102221381984561070</id>
+    <published>2019-06-05T22:41:45Z</published>
+    <updated>2019-06-05T22:41:45Z</updated>
+    <title>New status by darius</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://friend.camp/users/darius/statuses/102221381984561070"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://oulipo.social/@kit" class="u-url mention"&gt;@&lt;span&gt;kit&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; oh a pal that isn&amp;apos;t you&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://oulipo.social/users/kit"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://friend.camp/@darius/102221381984561070"/>
+    <link rel="self" type="application/atom+xml" href="https://friend.camp/users/darius/updates/111145.atom"/>
+    <thr:in-reply-to ref="https://friend.camp/users/darius/statuses/102221381285223767" href="https://friend.camp/@darius/102221381285223767"/>
+    <ostatus:conversation ref="tag:oulipo.social,2019-06-05:objectId=1209766:objectType=Conversation"/>
+  </entry>
+</feed>
