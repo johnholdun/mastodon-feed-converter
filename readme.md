@@ -15,7 +15,7 @@ The feeds created by this service have the following changes:
 
 You can convert an existing Atom feed provided by Mastodon into a converted JSON feed by passing it as a `source` query parameter to `feed.json`:
 
-[https://mastodon-feed-converter.johnholdun.com/feed.json?source=**https://mastodon.social/users/johnholdun.atom**](https://mastodon-feed-converter.johnholdun.com/feed.json?source=https://mastodon.social/users/johnholdun.atom)
+[http://mastodon-feed-converter.johnholdun.com/feed.json?source=**https://mastodon.social/users/johnholdun.atom**](http://mastodon-feed-converter.johnholdun.com/feed.json?source=https://mastodon.social/users/johnholdun.atom)
 
 You can subscribe directly to that feed in your feed reader. Every time your reader requests it, it will fetch that latest version of the source feed and convert it on the fly.
 
