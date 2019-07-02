@@ -9,6 +9,8 @@ Bundler.require
 require './generator'
 require './fetcher'
 
+ROOT_HTML = File.read('index.html').freeze
+
 CACHE =
   if ENV['MEMCACHEDCLOUD_SERVERS']
     Dalli::Client.new \
@@ -25,7 +27,6 @@ class Server
     path = env['PATH_INFO']
     query = CGI.parse(env['QUERY_STRING'])
 
-    puts "#{request_method} #{path} #{query}"
     if request_method == 'GET' && path == '/feed.json' && query.key?('source')
       begin
         result = Fetcher.call(query['source'][0])
@@ -34,6 +35,10 @@ class Server
         puts "Error! #{e}"
         return [500, {}, []]
       end
+    end
+
+    if request_method == 'GET' && path == '/'
+      return [200, { 'Content-Type' => 'text/html' }, [ROOT_HTML]]
     end
 
     return [500, {}, []]
