@@ -6,51 +6,40 @@
     <style>
       * { margin: 0; padding: 0; }
       html { font: 16px/1.5 Helvetica, arial, sans-serif; }
-      body { background: #fff9ff; max-width: 30rem; margin: 0 auto; padding: 2rem; }
-      h1, h2, p, ul { margin-bottom: 2rem; }
-      a { color: #44c; }
+      body { background: #343; color: #343; }
+      div { background: #fff; box-shadow: 1rem 1rem 0 #010; max-width: 30rem; margin: 2rem auto; padding: 2rem; }
+      h1 { background: #efe; border-bottom: 1px solid #cdc; margin: -2rem -2rem 2rem; padding: 2rem 2rem calc(2rem - 1px); }
+      h2 { margin: 2rem 0; color: #454; }
+      p, ul { margin-bottom: 1.5rem; }
+      li { list-style: square; }
+      a { color: #494; }
     </style>
   </head>
   <body>
-    <h1>Mastodon Feed Converter</h1>
-
-    <p>Turns Mastodon Atom feeds into reformatted JSON Feeds, inspired by <a href="https://micro.blog">micro.blog</a></p>
-
-    <h2>Features</h2>
-
-    <p>The feeds created by this service have the following changes:</p>
-
-    <ul>
-    <li>Titles are omitted—a status is just a body</li>
-    <li>If there is a Content Warning on the status, <em>that</em> becomes the title</li>
-    <li>Reposts are presented Tumblr-style, with the author's name followed by the original post in a blockquote</li>
-    <li>Images are included in the post body</li>
-    </ul>
-
-    <h2>Instructions</h2>
-
-    <p>You can convert an existing Atom feed provided by Mastodon into a converted JSON feed by passing it as a <code>source</code> query parameter to <code>feed.json</code>:</p>
-
-    <p><a href="http://mastodon-feed-converter.johnholdun.com/feed.json?source=https://mastodon.social/users/johnholdun.atom">http://mastodon-feed-converter.johnholdun.com/feed.json?source=<strong>https://mastodon.social/users/johnholdun.atom</strong></a></p>
-
-    <p>You can subscribe directly to that feed in your feed reader. Every time your reader requests it, it will fetch that latest version of the source feed and convert it on the fly.</p>
-
-    <h2>Hosting it yourself</h2>
-
-    <p>I make no guarantees that this service will remain functional, but I can tell you that I use it personally to read statuses from Mastodon users, so it will probably remain functional for a while. If you're interested in a more self-sufficient approach, <a href="https://github.com/johnholdun/mastodon-feed-converter">this repo</a> can be pushed to Heroku or any other server and work without any special configuration.</p>
-
-    <h2>Issues</h2>
-
-    <p>It's not perfect, and some content doesn't show up correctly. Check this project's <a href="https://github.com/johnholdun/mastodon-feed-converter/issues">GitHub Issues</a> and submit a new issue if you've noticed something that hasn't already been reported. (You're also welcome to try fixing it yourself and submitting a pull request!)</p>
-
-    <h2>Who did this?</h2>
-
-    <p>I did. I'm <a href="https://johnholdun.com">John Holdun</a>.</p>
-
-    <h2>Why isn't this a PR against Mastodon?</h2>
-
-    <p>While I think these changes satisfy a very general use case, they seem too drastically different from the existing Mastodon feeds. A very brief browse of existing conversations about RSS and Atom feeds in Mastodon suggested that pitching this as an official enhancement would not be a good use of anyone's time.</p>
-
-    <p>That said, if you have an idea for how to make this official, or you're interested in a patch for your own installation of Mastodon, <a href="mailto:john@johnholdun.com">let me know</a>! Maybe I can help you make it happen.</p>
+    <div>
+      <h1>Mastodon Feed Converter</h1>
+      <p>Turns Mastodon Atom feeds into reformatted JSON Feeds, inspired by <a href="https://micro.blog">micro.blog</a></p>
+      <h2>Features</h2>
+      <p>The feeds created by this service have the following changes:</p>
+      <ul>
+      <li>Titles are omitted—a status is just a body</li>
+      <li>If there is a Content Warning on the status, <em>that</em> becomes the title</li>
+      <li>Reposts are presented Tumblr-style, with the author's name followed by the original post in a blockquote</li>
+      <li>Images are included in the post body</li>
+      </ul>
+      <h2>Instructions</h2>
+      <p>You can convert an existing Atom feed provided by Mastodon into a converted JSON feed by passing it as a <code>source</code> query parameter to <code>feed.json</code>:</p>
+      <p><a href="http://mastodon-feed-converter.johnholdun.com/feed.json?source=https://mastodon.social/users/johnholdun.atom">http://mastodon-feed-converter.johnholdun.com/feed.json?source=<strong>https://mastodon.social/users/johnholdun.atom</strong></a></p>
+      <p>You can subscribe directly to that feed in your feed reader. Every time your reader requests it, it will fetch that latest version of the source feed and convert it on the fly.</p>
+      <h2>Hosting it yourself</h2>
+      <p>I make no guarantees that this service will remain functional, but I can tell you that I use it personally to read statuses from Mastodon users, so it will probably remain functional for a while. If you're interested in a more self-sufficient approach, <a href="https://github.com/johnholdun/mastodon-feed-converter">this repo</a> can be pushed to Heroku or any other server and work without any special configuration.</p>
+      <h2>Issues</h2>
+      <p>It's not perfect, and some content doesn't show up correctly. Check this project's <a href="https://github.com/johnholdun/mastodon-feed-converter/issues">GitHub Issues</a> and submit a new issue if you've noticed something that hasn't already been reported. (You're also welcome to try fixing it yourself and submitting a pull request!)</p>
+      <h2>Who did this?</h2>
+      <p>I did. I'm <a href="https://johnholdun.com">John Holdun</a>.</p>
+      <h2>Why isn't this a PR against Mastodon?</h2>
+      <p>While I think these changes satisfy a very general use case, they seem too drastically different from the existing Mastodon feeds. A very brief browse of existing conversations about RSS and Atom feeds in Mastodon suggested that pitching this as an official enhancement would not be a good use of anyone's time.</p>
+      <p>That said, if you have an idea for how to make this official, or you're interested in a patch for your own installation of Mastodon, <a href="mailto:john@johnholdun.com">let me know</a>! Maybe I can help you make it happen.</p>
+    </div>
   </body>
 </html>
