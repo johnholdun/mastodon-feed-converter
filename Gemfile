@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "nokogiri", "~> 1.10"
+gem "nokogiri", "~> 1.11"
 
 gem "dalli", "~> 2.7"
 
