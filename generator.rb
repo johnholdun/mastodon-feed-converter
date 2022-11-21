@@ -57,7 +57,7 @@ class Generator
 
       (object[:attachment] || []).each do |attachment|
         json_entry[:content_html] +=
-          if %w(image/jpeg image/jpg image/png image/gif).include?(attachment[:mediaType])
+          if %w(image/jpeg image/jpg image/png image/gif image/webp).include?(attachment[:mediaType])
             %Q(<p><img alt=#{attachment[:name].to_s.inspect} src="#{attachment[:url]}"></p>)
           else
             %Q(<p>Unexpected attachment: <code>#{JSON.pretty_generate(attachment)}</code></p>)
