@@ -1,6 +1,6 @@
-# Mastodon Feed Converter
+# ActivityPub to JSON Feed
 
-Turns Mastodon Atom feeds into reformatted JSON Feeds, inspired by [micro.blog](https://micro.blog)
+Turns ActiviytPub outboxes into reformatted JSON Feeds, inspired by [micro.blog](https://micro.blog)
 
 ## Features
 

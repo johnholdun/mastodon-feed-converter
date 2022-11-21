@@ -17,8 +17,8 @@
   </head>
   <body>
     <div>
-      <h1>Mastodon Feed Converter</h1>
-      <p>Turns Mastodon Atom feeds into reformatted JSON Feeds, inspired by <a href="https://micro.blog">micro.blog</a></p>
+      <h1>ActivityPub to JSON Feed</h1>
+      <p>Turns ActivityPub outboxes into reformatted JSON Feeds, inspired by <a href="https://micro.blog">micro.blog</a></p>
       <h2>Features</h2>
       <p>The feeds created by this service have the following changes:</p>
       <ul>
@@ -29,7 +29,7 @@
       </ul>
       <h2>Instructions</h2>
       <p>You can convert an existing Atom feed provided by Mastodon into a converted JSON feed by passing it as a <code>source</code> query parameter to <code>feed.json</code>:</p>
-      <p><a href="http://mastodon-feed-converter.johnholdun.com/feed.json?source=https://mastodon.social/users/johnholdun.atom">http://mastodon-feed-converter.johnholdun.com/feed.json?source=<strong>https://mastodon.social/users/johnholdun.atom</strong></a></p>
+      <p><a href="http://mastodon-feed-converter.johnholdun.com/feed.json?source=https://mastodon.social/users/johnholdun">http://mastodon-feed-converter.johnholdun.com/feed.json?source=<strong>https://mastodon.social/users/johnholdun.atom</strong></a></p>
       <p>You can subscribe directly to that feed in your feed reader. Every time your reader requests it, it will fetch that latest version of the source feed and convert it on the fly.</p>
       <h2>Hosting it yourself</h2>
       <p>I make no guarantees that this service will remain functional, but I can tell you that I use it personally to read statuses from Mastodon users, so it will probably remain functional for a while. If you're interested in a more self-sufficient approach, <a href="https://github.com/johnholdun/mastodon-feed-converter">this repo</a> can be pushed to Heroku or any other server and work without any special configuration.</p>
