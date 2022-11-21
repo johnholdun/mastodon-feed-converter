@@ -1,76 +1,31 @@
 require './strip_heredoc'
 
 class Generator
-  def initialize(feed_url, feed_content = nil)
-    @feed_url = feed_url
-    @feed_content = feed_content
+  def initialize(actor_url)
+    @actor_url = actor_url
   end
 
   def call
-    @feed_content ||= open(feed_url).read
-    doc = Nokogiri::XML(feed_content) { |conf| conf.noblanks }
+    actor = get(actor_url)
+    outbox_url = actor[:outbox]
+    outbox = get(outbox_url)
 
-    items =
-      doc.css('feed entry').map do |entry|
-        url =
-          entry
-            .children
-            .find { |n| n.name == 'link' && n[:rel] == 'alternate' && n[:type] == 'text/html' }[:href]
-
-        published = entry.css('published').first.text
-        modified = entry.css('updated').first.text
-
-        json_entry =
-          {
-            id: url,
-            content_html: entry.css('content[type="html"]').first.text,
-            url: url,
-            date_published: published
-          }
-
-        json_entry[:date_modified] = modified if modified != published
-
-        image = entry.css('link[rel="enclosure"]').first
-
-        if image and %w(image/jpeg image/jpg image/png image/gif).include?(image[:type])
-          json_entry[:content_html] += %Q(<p><img src="#{image[:href]}"></p>)
-        end
-
-        summary = entry.xpath('summary').first
-
-        if summary && summary.text
-          json_entry[:title] = summary.text
-        end
-
-        if entry.xpath('activity:verb').text == 'http://activitystrea.ms/schema/1.0/share'
-          shared_object = entry.xpath('activity:object')
-          shared_url = shared_object.css('link[rel="alternate"][type="text/html"]').first[:href]
-          shared_author = shared_object.css('author email').text
-          json_entry[:content_html] = strip_heredoc(<<-SHARE).strip
-            <p><a href="#{shared_url}">#{shared_author}</a>:</p>
-            <blockquote>#{json_entry[:content_html]}</blockquote>
-          SHARE
-
-          unless json_entry[:title]
-            shared_summary = shared_object.children.find { |n| n.name == 'summary' }
-
-            if shared_summary && shared_summary.text
-              json_entry[:title] = shared_summary.text
-            end
-          end
-        end
-
-        json_entry
-      end
+    first_page = outbox[:first]
+    items = get_items(first_page)
+    # TODO: More items?
 
     JSON.pretty_generate \
       version: 'https://jsonfeed.org/version/1',
-      title: doc.css('feed > title').text,
-      description: doc.css('feed > subtitle').text,
-      home_page_url: doc.css('feed > author > uri').text,
-      feed_url: "https://example.com/doc.json?source=#{CGI.escape(feed_url)}",
-      icon: doc.css('feed > logo').text,
-      items: items
+      title: actor[:name],
+      description: actor[:summary],
+      home_page_url: actor[:url],
+      feed_url: "http://mastodon-feed-converter.johnholdun.com/feed.json?source=#{CGI.escape(actor_url)}",
+      icon: actor.dig(:icon, :url),
+      items: items,
+      author: {
+        name: actor[:name],
+        avatar: actor.dig(:icon, :url)
+      }
   end
 
   def self.call(*args)
@@ -79,5 +34,48 @@ class Generator
 
   private
 
-  attr_reader :feed_url, :feed_content
+  attr_reader :actor_url
+
+  # TODO: Cache each response, add etag/if-modified support
+  def get(url)
+    response = open(url, 'Accept' => 'application/activity+json').read
+    JSON.parse(response, symbolize_names: true)
+  end
+
+  def get_items(url)
+    get(url)[:orderedItems].map do |item|
+      object = item[:object]
+      object = get(object) if object.is_a?(String)
+
+      json_entry =
+        {
+          id: item[:id],
+          content_html: object[:content],
+          url: object[:id],
+          date_published: item[:published]
+        }
+
+      (object[:attachment] || []).each do |attachment|
+        json_entry[:content_html] +=
+          if %w(image/jpeg image/jpg image/png image/gif).include?(attachment[:mediaType])
+            %Q(<p><img alt=#{attachment[:name].to_s.inspect} src="#{attachment[:url]}"></p>)
+          else
+            %Q(<p>Unexpected attachment: <code>#{JSON.pretty_generate(attachment)}</code></p>)
+          end
+      end
+
+      if object[:summary]
+        json_entry[:title] = object[:summary]
+      end
+
+      if item[:type] == 'Announce'
+        json_entry[:content_html] = strip_heredoc(<<-SHARE).strip
+          <p><a href="#{object[:attributedTo]}">#{object[:attributedTo]}</a>:</p>
+          <blockquote>#{json_entry[:content_html]}</blockquote>
+        SHARE
+      end
+
+      json_entry
+    end
+  end
 end
