@@ -1,6 +1,7 @@
 class Fetcher
-  # These feeds are kind of expensive, so let's only generate them hourly.
-  TIME_TO_LIVE = 3600
+  # These feeds are kind of expensive, so let's only generate them every 15
+  # minutes
+  TIME_TO_LIVE = 900
 
   def initialize(actor_url)
     # This used to support Atom feeds, and I would always accidentally use RSS
