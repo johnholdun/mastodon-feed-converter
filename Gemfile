@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "dalli", "~> 2.7"
+gem "dalli", "~> 3.2"
 
 gem "rack", "~> 2.0"
 
