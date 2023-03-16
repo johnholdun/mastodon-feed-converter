@@ -4,6 +4,6 @@ source "https://rubygems.org"
 
 gem "dalli", "~> 2.7"
 
-gem "rack", "~> 2.0"
+gem "rack", "~> 2.2"
 
 gem "shotgun", "~> 0.9.2", group: :development
